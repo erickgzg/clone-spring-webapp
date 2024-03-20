@@ -20,7 +20,7 @@ public class AppTest
 
 	public HtmlUnitDriver driver;
 	public String HOME_URL = "http://3.27.190.0:8080/sample/";
-	public String PRODUCTS_URL = "http://http://3.27.190.0:8080/Lab6A/";
+	public String PRODUCTS_URL = "http://http://3.27.190.0:8080/airsonic/";
 	
 	@Test
 	public void test1() {
