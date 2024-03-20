@@ -26,7 +26,7 @@ public class AppTest
 	public void test1() {
 		   driver = new HtmlUnitDriver();
 		   driver.navigate().to(HOME_URL);
-		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'Working')]]"));
+		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'directory')]]"));
 		   System.out.println("No of times available: "+el.size());
 		   driver.findElements(By.partialLinkText("It's"));
 	   }
@@ -35,7 +35,7 @@ public class AppTest
 	public void test2() {
 		   driver = new HtmlUnitDriver();
 		   driver.navigate().to(PRODUCTS_URL);
-		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'Rating')]]"));
+		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'parameters')]]"));
 		   System.out.println("No of times available: "+el.size());
 		   driver.findElements(By.partialLinkText("Tech"));
 	   }
