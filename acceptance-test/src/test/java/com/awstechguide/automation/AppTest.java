@@ -26,7 +26,7 @@ public class AppTest
 	public void test1() {
 		   driver = new HtmlUnitDriver();
 		   driver.navigate().to(HOME_URL);
-		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'directory')]]"));
+		   List<WebElement> el= driver.findElements(By.xpath("//*[text()[contains(.,'Hello')]]"));
 		   System.out.println("No of times available: "+el.size());
 		   driver.findElements(By.partialLinkText("It's"));
 	   }
